@@ -36,9 +36,10 @@ write.csv(combined_nash, "combined_nash.csv", row.names = FALSE)
 parks$GreenwayTrailhead <- grepl("Greenway Trailhead", parks$Notes)
 
 #create more detailed hiking data set
-hikes <- subset(parks, Hiking.Trails=="Yes")
+subset(parks, Hiking.Trails=="Yes")
 
-
+#Percy Warner Park
+hikes <- hikes$Park.Name
 
 #maps
 UrbanAreasUS.shp <- readOGR(dsn = path.expand("~/Dropbox/R Ladies/tl_2016_us_uac10/tl_2016_us_uac10.shp"), layer="tl_2016_us_uac10")
