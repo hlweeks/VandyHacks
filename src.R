@@ -1,4 +1,3 @@
-#set wd
 user<-system2("whoami", stdout=TRUE)
 wd<-switch(user,
            sarahlotspeich=file.path("~/Dropbox/Vanderbilt/Fall 2017/VandyHacks/"),
@@ -49,8 +48,8 @@ UrbanAreasUS.shp <- readOGR(dsn = path.expand("~/Dropbox/R Ladies/tl_2016_us_uac
 NashvilleTN.shp <- subset(UrbanAreasUS.shp, UrbanAreasUS.shp@data$NAME10 == "Nashville-Davidson, TN")
 NashvilleTN.df <- tidy(NashvilleTN.shp, region = "NAME10")
 
-NashvilleTN.map <- ggplot() + geom_polygon(data = NashvilleTN.df, aes(x = long, y = lat, group = group), fill="white", col="black") + 
-  ggtitle("Nashville Art in Public Places") + coord_equal(ratio = 1) + 
+NashvilleTN.map <- ggplot() + geom_polygon(data = NashvilleTN.df, aes(x = long, y = lat, group = group), fill="white", col="black") +
+  ggtitle("Nashville Art in Public Places") + coord_equal(ratio = 1) +
   theme(axis.text.x=element_blank(), axis.text.y=element_blank(), axis.ticks=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank()) +
   north(NashvilleTN.df, location = "topleft") + scalebar(NashvilleTN.df, location = "bottomright", dist = 10, dd2km = TRUE, model = 'WGS84', st.size=2.5)
 
