@@ -1,3 +1,6 @@
+#I AM CHANGING SOMETHING -HW ????
+
+
 getwd()
 libraries <- read.csv("~/Downloads/Library_Location_and_Facilities.csv")
 metro_art <- read.csv("~/Downloads/Metro_Public_Art_Collection.csv", stringsAsFactors = FALSE)
