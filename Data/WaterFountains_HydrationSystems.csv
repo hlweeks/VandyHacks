@@ -1,0 +1,74 @@
+the_geom,OBJECTID,LAT,NAME,LON,Location,Dog,FeatType,Cnt,ADA
+POINT (-86.89425345576078 36.26250455840148),45921,-86.89425346,Beaman Water Fountain,36.26250456,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.90622747033689 36.06089914863129),45937,-86.90622747,Edwin Nature Center Water Fountain,36.06089915,Restrooms Breezeway,N,Bottle Filler/ADA,1,Y
+POINT (-86.86727565917963 36.08310102493863),45964,-86.86727566,Percy Warner Belle Meade Gates Water Fountain,36.08310102,Belle Meade Gates,Y,ADA Bowl,1,Y
+POINT (-86.8637899391243 36.161795831166906),45992,-86.86378994,West Park Water Fountain,36.16179583,Ballfield,N,Single with foot pedal,1,N
+POINT (-86.84589094125035 36.151393836128406),46012,-86.84589094,Richland Park Water Fountain,36.15139384,Playground,N,Single with foot pedal,1,N
+POINT (-86.812796927121 36.147179847789246),46063,-86.81279693,Centennial Water Fountain,36.14717985,Large Picnic Shelter CPAS,Y,Bottle Filler/ADA,1,Y
+POINT (-86.80604491107205 36.137148846094306),46091,-86.80604491,Fannie Mae Dees Water Fountain,36.13714885,Playground,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.80615988848005 36.13615282281186),46092,-86.80615989,Fannie Mae Dees Water Fountain,36.13615282,Tennis Court,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.76095191593977 36.18696883428431),46154,-86.76095192,Cleveland Water Fountain,36.18696883,Basketball Court,N,Single with foot pedal,1,N
+POINT (-86.73899389419367 36.06665983110002),46190,-86.73899389,Whitfield Water Fountain,36.06665983,Middle of Ball Diamonds,N,Single with foot pedal,1,N
+POINT (-86.7336920807119 36.17068627396349),46200,-86.73369208,Shelby Dog Park Water Fountain,36.17068627,Dog Park,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.70793688617943 36.09233882949366),46233,-86.70793689,Proviidence Water Fountain,36.09233883,Pavillion,N,Single with foot pedal,1,N
+POINT (-86.72489842591406 36.16618199464707),46238,-86.72489843,Shelby Bottoms Water Fountain,36.16618199,Trailhead,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.70280615378073 36.19727878810494),46240,-86.70280615,Forest Green Trailhead Water Fountain,36.19727879,Shelby Bottoms,Y,Standard/ADA,1,Y
+POINT (-86.69612486749088 36.10968084904999),46255,-86.69612487,Seven Oaks Water Fountain,36.10968085,Tennis Court,N,Single with foot pedal,1,N
+POINT (-86.62344385862477 35.990198818087016),46306,-86.62344386,Cane Ridge Concession Water Fountain,35.99019882,Concession,N,Wall mount Standard,2,N
+POINT (-86.80720581611844 36.13662449644815),46534,-86.80720582,Fannie Mae Dees Water Fountain,36.1366245,Lawn Behind School,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.85492120653595 36.156572160443005),46535,-86.85492121,England Park Water Fountain,36.15657216,Near Playground and greenway path,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.70405009369975 36.190299448658486),46583,-86.70405009,Cornelia Fort Airpark Water Fountain,36.19029945,Cornelia Fort,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.78920552318344 36.11818210484989),46584,-86.78920552,Sevier Water Fountain,36.1181821,Playground,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.78984818494916 36.12029853340785),46585,-86.78984818,Sevier Water Fountain,36.12029853,Near Kirkwood and 12th,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.77188799128072 36.15898870023951),46586,-86.77188799,Ascend Amphiteater Water Fountain,36.1589887,Building,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.92179182147396 36.154195748354134),46587,-86.92179182,Bells Bend Nature Center Water Fountain,36.15419575,Restrooms,N,Wall mount Standard/ADA,1,Y
+POINT (-86.83946479165141 36.17917600316194),46588,-86.83946479,Bordeaux Gardens Water Fountain,36.179176,Playground,N,Single with foot pedal,1,N
+POINT (-86.84421939207184 36.21380171420748),46589,-86.84421939,Bordeaux-Timothy Water Fountain,36.21380171,Parking Lot,N,Single with foot pedal,1,N
+POINT (-86.80692193650543 36.191813594760944),46590,-86.80692194,Buena Vista Concession Stand Fountain,36.19181359,Concession,N,Wall mount Standard/ADA,1,Y
+POINT (-86.62337428256001 35.98939654447242),46591,-86.62337428,Cane Ridge Playground Fountain,35.98939654,Playground,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.61814280299104 35.98769270825836),46592,-86.6181428,Cane Ridge Quad Fountain,35.98769271,Field Quad,N,Single with foot pedal,2,N
+POINT (-86.77125234309437 36.16286998532657),46594,-86.77125234,Cumberland Park Concession Area Water Fountain,36.16286999,Under Bridge Office,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.90162012078665 36.05195561783142),46595,-86.90162012,Edwin Warner Dog Park Water Fountain,36.05195562,Dog Park,Y,Dog Only,1,N
+POINT (-86.89817440030933 36.049983457233566),46597,-86.8981744,Edwin Warner Concession Water Fountain,36.04998346,WNSL Concessions,N,Standard/ADA,1,Y
+POINT (-86.8030851050261 36.17838569314775),46598,-86.80308511,Elizabeth Park Water Fountain,36.17838569,Community Center,N,Single with foot pedal,1,N
+POINT (-86.8235425850273 36.13282743418749),46601,-86.82354259,Ellmington Playground Water Fountain,36.13282743,Playground (out of service),N,Single with foot pedal,1,N
+POINT (-86.77504331634371 36.14316079573422),46602,-86.77504332,Fort Negley Visitor Center Water Fountain,36.1431608,Building,N,Wall Mount Standard/ADA,1,Y
+POINT (-86.82294897785081 36.16667950235826),46603,-86.82294898,Hadley Tennis Water Fountain,36.1666795,Tennis Bubble,N,Single with foot pedal,1,N
+POINT (-86.6146296982137 36.17686933526896),46604,-86.6146297,Hermitage Park Playground Water Fountain,36.17686934,Playground,N,Single with foot pedal,1,N
+POINT (-86.72411209147035 36.22802136563137),46605,-86.72411209,Litton Park Parking Lot Water Fountain,36.22802137,Parking Lot,N,Single with foot pedal,1,N
+POINT (-86.84180587849137 36.141805917831526),46606,-86.84180588,Mccabe Playground Water Fountain,36.14180592,Playground,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.86044213349203 36.10382687183622),46607,-86.86044213,Parmer Park Water Fountain,36.10382687,Pinic Shelter,N,Single with foot pedal,1,N
+POINT (-86.65680453473183 36.20180578264442),46608,-86.65680453,Peeler Airplane Field Water Fountain,36.20180578,Air Plane Field,N,Single with foot pedal,1,N
+POINT (-86.8497504750175 36.14484773968499),46610,-86.84975048,Richland Creek Greenway Trailhead,36.14484774,Parking Lot/Trailhead,Y,Dog/ADA,1,Y
+POINT (-86.67724159093851 36.19136465273158),46611,-86.67724159,Two Rivers Dog Park Water Fountain,36.19136465,Dog Park,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.6870433942043 36.18710443920477),46612,-86.68704339,Two Rivers Skate Park Water Fountain,36.18710444,Gate entrance,N,Standard/ADA,1,Y
+POINT (-86.8355454895384 36.118815841271925),46613,-86.83554549,Woodmont Playground Water Fountain,36.11881584,Playground/Sandbox,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.77052028735707 36.15935443644061),46633,-86.77052029,Ascend Fitness Area Water Fountain,36.15935444,Fitness Area,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.77310593163244 36.161054088206114),46634,-86.77310593,Acend Dog Park Water Fountain,36.16105409,Dog Park,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.77307033558381 36.160931985086684),46635,-86.77307034,Acend Dog Park Water Fountain,36.16093199,Dog Park,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.93480988838863 36.07298516423679),46636,-86.93480989,Bellevue Park Water Fountain,36.07298516,Restrooms,N,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.74403340859644 36.27227223808998),46637,-86.74403341,Cedar Hill Picnic Area Water Fountain,36.27227224,Picnic Area,N,Single with foot pedal,1,N
+POINT (-86.74776106943182 36.26906984847461),46638,-86.74776107,Cedar Hill Playground Water Fountain,36.26906985,Playground,N,Single with foot pedal,1,N
+POINT (-86.74947244837388 36.270069009845606),46639,-86.74947245,Cedar Hill Baseball Water Fountain,36.27006901,Baseball Field,N,Single with foot pedal,1,N
+POINT (-86.74466451542291 36.27487462406781),46640,-86.74466452,Cedar Hill Tennis Water Fountain,36.27487462,Tenns Courts,N,Single with foot pedal,1,N
+POINT (-86.76952113699025 36.14734312568788),46641,-86.76952114,City Cemetery Water Fountain,36.14734313,Office Building,N,Single with foot pedal,1,N
+POINT (-86.78489986728894 36.192466750166616),46642,-86.78489987,Metro Center Levee 65 Trailhead Water Fountain,36.19246675,Trailhead,Y,Dog Only,1,N
+POINT (-86.82485805995978 36.192586675481266),46643,-86.82485806,Metro Center Levee Golf Trailhead Water Fountain,36.19258668,Trailhead,Y,Dog Only,1,N
+POINT (-86.77878659472893 36.16656569565582),46644,-86.77878659,Public Square Water Fountain,36.1665657,3rd Ave Steps Courthouse,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.73086194538178 36.16700771649322),46645,-86.73086195,Shelby Events Field Loop Water Fountain,36.16700772,Event Field Trailhead,N,Single with foot pedal,1,N
+POINT (-86.64758929502842 36.17322358235952),46646,-86.6475893,Stones River - YMCA Trailhead Water Fountain,36.17322358,Trailhead,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.73055465316766 36.166789680057406),46645,-86.73055465,Shelby Events Field Loop Water Fountain,36.16678968,Event Field Trailhead,N,Single with foot pedal,1,N
+POINT (-86.93623588232019 36.069281998920175),0,-86.93623588,Bellevue Library Hydration System,36.069282,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.78916099222776 36.17101110882391),0,-86.78916099,Farmers Market Hydration System,36.17101111,North Shed,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.78833877190499 36.17028332869765),0,-86.78833877,Farmers Market Hydration System,36.17028333,South Shed,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.76813599131154 36.15405832820603),0,-86.76813599,Fulton Campus Hydration System,36.15405833,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.6242228821975 36.104543997882715),0,-86.62422288,Hamilton Creek Park Hydration System,36.104544,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.81563388221299 36.15435799838095),0,-86.81563388,Lentz Health Clinic Hydration System,36.154358,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.78438888137447 36.181244998241176),0,-86.78438888,Midtown Hills Precinct,36.181245,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.65855888175066 36.04866999798748),0,-86.65855888,Southeast Davidson Library and Community Ctr Hydration System,36.04867,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.85550788145858 36.151466998298936),0,-86.85550788,West Police Precinct Hydration System,36.151467,,Y,Fountain/Bottle filler/ADA,1,Y
+POINT (-86.94508440808808 36.058992725162675),0,-86.94508441,Harpeth River Greenway,36.05899273,Morton Mill Rd at Old Harding Pike,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.91617133563244 36.05133033361339),0,-86.91617134,Harpeth River Greenway,36.05133033,Butler Field Trail Head,Y,Standard/ADA/Bottle Filler,1,N
+POINT (-86.77223046556308 36.16412160534988),0,-86.77223047,River Landing,36.16412161,Greenway @ Victory & Titans Ways,N,Standard/ADA,1,Y
+POINT (-86.7712099827693 36.1601422664622),0,-86.77120998,Ascend Amphiteater Water Fountain,36.16014227,Building,N,Standard/ADA/Bottle Filler,1,N
+POINT (-86.62095101367906 36.158685253692965),0,-86.62095101,Stones River - Percy Priest Dog Park Water Fountain,-86.62095101,Dog Park,Y,Standard/ADA/Bottle Filler,1,N
