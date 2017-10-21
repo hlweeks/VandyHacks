@@ -1,13 +1,18 @@
-#I AM CHANGING SOMETHING -HW ????
+user<-system2("whoami", stdout=TRUE)
+wd<-switch(user,
+           sarahlotspeich=file.path("~/Dropbox/Vanderbilt/Fall 2017/VandyHacks/"),
+           valeriewelty=file.path("~/Git_Repos/Collaboration_Russell_Project/russell_project"))
+setwd(wd)
 
-
-getwd()
-libraries <- read.csv("~/Downloads/Library_Location_and_Facilities.csv")
-metro_art <- read.csv("~/Downloads/Metro_Public_Art_Collection.csv", stringsAsFactors = FALSE)
-public_art <- read.csv("~/Downloads/Art_in_Public_Places.csv", stringsAsFactors = FALSE)
-historic <- read.csv("~/Downloads/Historic_Markers.csv", stringsAsFactors = FALSE)
-wifi <- read.csv("~/Downloads/Metro_Public_WiFi_Locations.csv", stringsAsFactors=FALSE)
-beer <- read.csv("~/Downloads/Beer_Permit_Locations.csv", stringsAsFactors = FALSE)
+libraries <- read.csv("Data/Library_Location_and_Facilities.csv")
+metro_art <- read.csv("Data/Metro_Public_Art_Collection.csv", stringsAsFactors = FALSE)
+public_art <- read.csv("Data/Art_in_Public_Places.csv", stringsAsFactors = FALSE)
+historic <- read.csv("Data/Historic_Markers.csv", stringsAsFactors = FALSE)
+wifi <- read.csv("Data/Metro_Public_WiFi_Locations.csv", stringsAsFactors=FALSE)
+beer <- read.csv("Data/Beer_Permit_Locations.csv", stringsAsFactors = FALSE)
+parks <- read.csv("Data/Parks_-_Park_Locations.csv")
+water <- read.csv("Data/WaterFountains_HydrationSystems.csv")
+bikeracks <- read.csv("Data/Downloads/BikeRacks.csv")
 
 #geocode public wifi locations
 library(ggmap)
@@ -26,24 +31,22 @@ combined_nash$PhotoLink <- c(metro_art$Photo, public_art$Photo, rep("", nrow(his
 
 write.csv(combined_nash, "combined_nash.csv", row.names = FALSE)
 
-parks <- read.csv("~/Downloads/Parks_-_Park_Locations.csv")
-water <- read.csv("~/Downloads/WaterFountains_HydrationSystems.csv")
-bikeracks <- read.csv("~/Downloads/BikeRacks.csv")
-
+#append column to parks dataset for parks that have a Greenway Trailhead
 parks$GreenwayTrailhead <- grepl("Greenway Trailhead", parks$Notes)
 
 #create more detailed hiking data set
-hikes <- subset(parks, Hiking.Trails=="Yes")
+subset(parks, Hiking.Trails=="Yes")
 
-
+#Percy Warner Park
+hikes <- hikes$Park.Name
 
 #maps
 UrbanAreasUS.shp <- readOGR(dsn = path.expand("~/Dropbox/R Ladies/tl_2016_us_uac10/tl_2016_us_uac10.shp"), layer="tl_2016_us_uac10")
 NashvilleTN.shp <- subset(UrbanAreasUS.shp, UrbanAreasUS.shp@data$NAME10 == "Nashville-Davidson, TN")
 NashvilleTN.df <- tidy(NashvilleTN.shp, region = "NAME10")
 
-NashvilleTN.map <- ggplot() + geom_polygon(data = NashvilleTN.df, aes(x = long, y = lat, group = group), fill="white", col="black") + 
-  ggtitle("Nashville Art in Public Places") + coord_equal(ratio = 1) + 
+NashvilleTN.map <- ggplot() + geom_polygon(data = NashvilleTN.df, aes(x = long, y = lat, group = group), fill="white", col="black") +
+  ggtitle("Nashville Art in Public Places") + coord_equal(ratio = 1) +
   theme(axis.text.x=element_blank(), axis.text.y=element_blank(), axis.ticks=element_blank(),axis.title.x=element_blank(),axis.title.y=element_blank()) +
   north(NashvilleTN.df, location = "topleft") + scalebar(NashvilleTN.df, location = "bottomright", dist = 10, dd2km = TRUE, model = 'WGS84', st.size=2.5)
 
