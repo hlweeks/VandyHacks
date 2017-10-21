@@ -1,3 +1,4 @@
+#TEST
 user<-system2("whoami", stdout=TRUE)
 wd<-switch(user,
            sarahlotspeich=file.path("~/Dropbox/Vanderbilt/Fall 2017/VandyHacks/"),
