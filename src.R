@@ -1,4 +1,4 @@
-#TEST
+#set wd
 user<-system2("whoami", stdout=TRUE)
 wd<-switch(user,
            sarahlotspeich=file.path("~/Dropbox/Vanderbilt/Fall 2017/VandyHacks/"),
@@ -34,6 +34,8 @@ write.csv(combined_nash, "combined_nash.csv", row.names = FALSE)
 
 #append column to parks dataset for parks that have a Greenway Trailhead
 parks$GreenwayTrailhead <- grepl("Greenway Trailhead", parks$Notes)
+parks$ModelAirplaneField <- grepl("Airplane", parks$Notes)
+parks$Amphetheater <-  grepl("amphetheater", parks$Notes)
 
 #create more detailed hiking data set
 subset(parks, Hiking.Trails=="Yes")
