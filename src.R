@@ -11,7 +11,7 @@ public_art <- read.csv("Data/Art_in_Public_Places.csv", stringsAsFactors = FALSE
 historic <- read.csv("Data/Historic_Markers.csv", stringsAsFactors = FALSE)
 wifi <- read.csv("Data/Metro_Public_WiFi_Locations.csv", stringsAsFactors=FALSE)
 beer <- read.csv("Data/Beer_Permit_Locations.csv", stringsAsFactors = FALSE)
-parks <- read.csv("Data/Parks_-_Park_Locations.csv")
+parks <- read.csv("Data/Parks_-_Park_Locations.csv", stringsAsFactors = FALSE)
 water <- read.csv("Data/WaterFountains_HydrationSystems.csv")
 bikeracks <- read.csv("Data/Downloads/BikeRacks.csv")
 
@@ -36,6 +36,7 @@ write.csv(combined_nash, "combined_nash.csv", row.names = FALSE)
 parks$GreenwayTrailhead <- grepl("Greenway Trailhead", parks$Notes)
 parks$ModelAirplaneField <- grepl("Airplane", parks$Notes)
 parks$Amphetheater <-  grepl("amphetheater", parks$Notes)
+#parks$PoolType[grepl("outdoor pool", parks$Notes)] <- 
 
 #create more detailed hiking data set
 subset(parks, Hiking.Trails=="Yes")
